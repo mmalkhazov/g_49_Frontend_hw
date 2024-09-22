@@ -1,0 +1,41 @@
+* {
+  color: rgb(157, 255, 0);
+  box-sizing: border-box;
+}
+
+h1 {
+  color: rgb(207, 5, 207);
+  text-align: center;
+  font-weight: 7000;
+}
+
+p {
+  font-family: "Verdana", sans-serif;
+}
+
+.css-list {
+  color: black;
+  font-style: italic;
+  margin-left: 30px;
+}
+
+.css-list-item {
+  margin-bottom: 10px;
+}
+
+.css-gameloft-link {
+  color: red;
+  text-decoration: underline;
+}
+
+.css-codecademy-link {
+  color: rgb(84, 78, 81);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.video-frame {
+    display: block;
+    border: 2px solid #081203;
+    border-radius: 50px;
+  }
