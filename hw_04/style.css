@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 50px;
+  width: 100%;
+  height: 100px;
+  background-image: url(imagebanner.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+
+.img_container > div {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+  z-index: 2;
+}
+
+.img_container_item1 {
+  background-image: url("logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+}
+
+.img_container_item2 .icon {
+  background-image: url(play.svg);
+}
+
+.img_container_item3 .icon {
+  background-image: url(oscar.svg);
+}
+
+.img_container_search input[type="text"] {
+  min-width: 230px;
+  height: 20px;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  opacity: 0.8;
+  outline: none;
+  font-size: 14px;
+}
+
+input {
+  border: none;
+  outline: none;
+  opacity: 0.8;
+  border-radius: 6px;
+  min-width: 100px;
+  height: 20px;
+}
+
+.img_container_search input[type="text"]:focus {
+  outline: 2px solid #ccc;
+  outline-width: 2px;
+}
+
+main {
+  width: 400vh;
+}
